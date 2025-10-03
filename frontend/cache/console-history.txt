@@ -1,0 +1,7 @@
+clear
+const Greeter = await ethers.getContractFactory("Greeter");
+await greeter.greet();
+await greeter.setGreeting("Hi ETH!");
+await greeter.greet(); 
+const greeter = await Greeter.attach("YOUR_CONTRACT_ADDRESS_HERE");
+const Greeter = await ethers.getContractFactory("Greeter");eter"); await ethers.getContractFactory("Greeter");
